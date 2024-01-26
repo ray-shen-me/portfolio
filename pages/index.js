@@ -7,6 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Ray Shen</title>
+        <link rel="icon" type = "image/x-icon" href = "/public/favicon.ico"></link>
       </Head>
 
       <main>
@@ -15,9 +16,9 @@ export default function Home() {
         </h1>
         <h2 className={styles.names}>Student and Developer</h2>
         <div className={styles.bcontainer}>
-          <button className={styles.buttons}>Projects</button>
-          <button className={styles.buttons}>Github</button>
-          <button className={styles.buttons}>LinkedIn</button>
+          <Link href = "/projects/project"><button className={styles.buttons}>Projects</button></Link>
+          <a href = "https://github.com/rayyshen" target="_blank"><button className={styles.buttons}>Github</button></a>
+          <a href = "https://www.linkedin.com/in/ray-shen-15b7b8260/" target="_blank"><button className={styles.buttons}>LinkedIn</button></a>
         </div>
       </main>
 
