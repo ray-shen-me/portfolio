@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
+import * as React from "react";
+import {NextUIProvider} from "@nextui-org/react";
 
 export default function Home() {
   return (
@@ -16,9 +18,9 @@ export default function Home() {
         </h1>
         <h2 className={styles.names}>Student and Developer</h2>
         <div className={styles.bcontainer}>
-          <Link href = "/projects/project"><button className={styles.buttons}>Projects</button></Link>
+          <Link href = "/project"><button className={styles.buttons}>Projects</button></Link>
           <a href = "https://github.com/rayyshen" target="_blank"><button className={styles.buttons}>Github</button></a>
-          <a href = "https://www.linkedin.com/in/ray-shen-15b7b8260/" target="_blank"><button className={styles.buttons}>LinkedIn</button></a>
+          <Link href = "/aboutme"><button className={styles.buttons}>About Me</button></Link>
         </div>
       </main>
 

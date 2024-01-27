@@ -1,3 +1,5 @@
+
+
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
@@ -5,10 +7,16 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #313131;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
+  background-size: 30px 30px;
+  background-position: -5px -5px
 }
 
 .title a {
-  color: #0070f3;
+  color: #28282d;
   text-decoration: none;
 }
 
@@ -22,6 +30,7 @@
   margin: 0 0 0rem;
   line-height: 1.15;
   font-size: 8rem;
+  color: white;
 }
 
 
@@ -113,6 +122,7 @@
 .names {
   text-align: center;
   font-size: 2rem;
+  color: white;
 }
 
 .title,
@@ -137,6 +147,7 @@
 
 .card {
   margin: 1rem;
+  max-width:300px;
   flex-basis: 45%;
   padding: 1.5rem;
   text-align: left;
@@ -147,6 +158,11 @@
   transition:
     color 0.15s ease,
     border-color 0.15s ease;
+}
+
+.container-title {
+  color: grey;
+  font-size: 18px;
 }
 
 .card:hover,
