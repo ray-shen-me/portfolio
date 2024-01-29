@@ -32,7 +32,7 @@ export default function project() {
 
     <div className={styles.container}>
       <Head>
-        <title>Ray Shen</title>
+        <title>Ray Shen | Projects</title>
         <link rel="icon" type="image/x-icon" href="/public/favicon.ico"></link>
       </Head>
       <meta charset="UTF-8"></meta>
@@ -51,7 +51,7 @@ export default function project() {
                       <p className={styles.cardtitle}>
                         {card.text}
                       </p>
-                      <a href={card.github} target="_blank"><button className={styles.btn}>Github</button></a>
+                      <a href={card.github} target="_blank"><button className={styles.btn}><img src="github.svg" className={styles.icon}></img>Github</button></a>
                     </div>)
                 }
               </div>

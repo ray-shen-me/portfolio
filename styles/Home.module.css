@@ -38,8 +38,15 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
-/* CSS */
+
+.icon {
+    margin-left: -10px;
+    margin-right:7px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
+}
+
 .buttons {
   all: unset;
   width: 100px;
@@ -114,6 +121,7 @@
   margin: 10 auto;
   display: inline-flex;
 }
+
 
 .title {
   text-align: center;
@@ -191,5 +199,14 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+
+  #btn {
+    display:block;
+  }
+
+  .buttons {
+    display: flex;
+    text-decoration: none;
   }
 }

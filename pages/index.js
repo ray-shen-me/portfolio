@@ -2,7 +2,6 @@ import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 import Link from 'next/link';
 import * as React from "react";
-import { NextUIProvider } from "@nextui-org/react";
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
