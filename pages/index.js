@@ -15,6 +15,17 @@ export default function Home() {
       </Head>
 
       <main className={inter.className}>
+        <div className={styles.navbtn}>
+          <div className={styles.nav}>
+            <input type="checkbox"></input>
+            <span></span>
+            <span></span>
+            <div className={styles.menu}>
+              <li><Link href="./project">Projects</Link></li>
+              <li><Link href="./aboutme">About</Link></li>
+            </div>
+          </div>
+        </div>
         <h1 className={styles.title}>
           Ray Shen
         </h1>

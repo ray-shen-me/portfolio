@@ -15,6 +15,17 @@ export default function aboutme() {
       </Head>
 
       <main className={inter.className}>
+        <div className={styles.navbtn}>
+          <div className={styles.nav}>
+            <input type="checkbox"></input>
+            <span></span>
+            <span></span>
+            <div className={styles.menu}>
+              <li><Link href="./">Home</Link></li>
+              <li><Link href="./project">Projects</Link></li>
+            </div>
+          </div>
+        </div>
         <section>
           <div className={styles.scontainer}>
             <div className={styles.content}>

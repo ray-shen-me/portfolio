@@ -38,6 +38,17 @@ export default function project() {
       <meta charset="UTF-8"></meta>
 
       <main className={inter.className}>
+        <div className={styles.navbtn}>
+          <div className={styles.nav}>
+            <input type="checkbox"></input>
+            <span></span>
+            <span></span>
+            <div className={styles.menu}>
+              <li><Link href="./">Home</Link></li>
+              <li><Link href="./aboutme">About</Link></li>
+            </div>
+          </div>
+        </div>
         <div className={styles.cardbody}>
           <section className={styles.cardsection}>
             <div className={styles.cardcontainer}>
