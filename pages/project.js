@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from '../styles/Project.module.css';
-import Head from 'next/head'
+import nav from '../styles/nav.module.css';
+import Head from 'next/head';
 import React from "react";
 import { useState } from 'react';
 import { Inter } from 'next/font/google'
@@ -38,12 +39,12 @@ export default function project() {
       <meta charset="UTF-8"></meta>
 
       <main className={inter.className}>
-        <div className={styles.navbtn}>
-          <div className={styles.nav}>
+        <div className={nav.navbtn}>
+          <div className={nav.nav}>
             <input type="checkbox"></input>
             <span></span>
             <span></span>
-            <div className={styles.menu}>
+            <div className={nav.menu}>
               <li><Link href="./">Home</Link></li>
               <li><Link href="./aboutme">About</Link></li>
             </div>
