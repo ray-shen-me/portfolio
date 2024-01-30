@@ -12,7 +12,7 @@ export default function aboutme() {
     <div className={styles.container}>
       <Head>
         <title>Ray Shen | About Me</title>
-        <link rel="icon" type="image/x-icon" href="/public/favicon.ico"></link>
+        <link rel="icon" type="image/x-icon" href="./favicon.ico"></link>
       </Head>
 
       <main className={inter.className}>
@@ -37,14 +37,15 @@ export default function aboutme() {
                 I'm <span>Ray</span> a Student & Developer
               </h1>
               <p className={styles.description}>
-                Welcome to my portfolio website! I'm Ray, a student at Oakton High School with an interest in Computer Science. In my free time I love to participate in hackathons, explore nature, cook, and eat. I'm excited to learn and am currently looking for entry-level tech interships/programs so feel free to contact me.
+                Welcome to my portfolio website! I'm Ray, a student at Oakton High School in Virginia with an interest in Computer Science. In my free time I love to participate in hackathons, explore nature, cook, and eat. I'm excited to learn and am currently looking for entry-level tech interships/programs so feel free to contact me.
               </p>
 
               <div className={styles.btncontainer}>
-                <a href="./Ray_Shen_-_Resume.pdf" target="_blank"><button className={styles.btn}><img src="resume.svg" className={styles.icon}></img>CV Download</button></a>
-                <a href="https://www.linkedin.com/in/ray-shen-15b7b8260/" target="_blank"><button className={styles.btn}><img src="linkedin.svg" className={styles.icon}></img>LinkedIn</button></a>
-                <a href="https://github.com/rayyshen" target="_blank"><button className={styles.btn}><img src="github.svg" className={styles.icon}></img>Github</button></a>
-                <a href="https://www.instagram.com/ray.shen_/" target="_blank"><button className={styles.btn}><img src="instagram.svg" className={styles.icon}></img>Instagram</button></a>
+                <a href="./resume.pdf" target="_blank" className={nav.under}><button className={styles.btn}><img src="resume.svg" className={styles.icon}></img>CV Download</button></a>
+                <a href="https://www.linkedin.com/in/ray-shen-15b7b8260/" target="_blank" className={nav.under}><button className={styles.btn}><img src="linkedin.svg" className={styles.icon}></img>LinkedIn</button></a>
+                <a href="https://www.instagram.com/ray.shen_/" target="_blank" className={nav.under}><button className={styles.btn}><img src="instagram.svg" className={styles.icon}></img>Instagram</button></a>
+                <button className={styles.btn} onClick={() => { navigator.clipboard.writeText("rayshen071@gmail.com"); alert("Email added to clipboard   -   rayshen071@gmail.com") }}><img src="email.svg" className={styles.icon}></img>Contact Me</button>
+
               </div>
             </div>
             <div className={styles.image}>

@@ -32,9 +32,9 @@ export default function Home() {
         </h1>
         <h2 className={styles.names}>Student and Developer</h2>
         <div className={styles.bcontainer}>
-          <Link href="/project"><button className={styles.buttons}>Projects</button></Link>
-          <a href="https://github.com/rayyshen" target="_blank"><button className={styles.buttons}>Github</button></a>
-          <Link href="/aboutme"><button className={styles.buttons}>About Me</button></Link>
+          <Link href="/project" className={nav.under}><button className={styles.buttons}><img src="projects.svg" className={styles.icon}></img>Projects</button></Link>
+          <a href="https://github.com/rayyshen" target="_blank" className={nav.under}><button className={styles.buttons}><img src="github.svg" className={styles.icon}></img>Github</button></a>
+          <Link href="/aboutme" className={nav.under}><button className={styles.buttons}><img src="aboutme.svg" className={styles.icon}></img>About Me</button></Link>
         </div>
       </main>
 

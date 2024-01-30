@@ -11,7 +11,7 @@
   background-image: radial-gradient(rgba(255, 255, 255, 0.171) 2px, transparent 0);
   background-size: 30px 30px;
   background-position: -5px -5px;
-  
+
 }
 
 .title a {
@@ -85,10 +85,11 @@
   padding: 20px;
 }
 
-@media(max-width: 600px){
-  .card{
+@media(max-width: 600px) {
+  .card {
     flex: 0 0 100%;
     max-width: 100%;
+    margin-bottom: 75px;
   }
 }
 
@@ -117,7 +118,7 @@
 
 .icon {
   margin-left: -10px;
-  margin-right:7px;
+  margin-right: 7px;
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(102%) contrast(102%);
 }
 

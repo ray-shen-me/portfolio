@@ -63,7 +63,7 @@ export default function project() {
                       <p className={styles.cardtitle}>
                         {card.text}
                       </p>
-                      <a href={card.github} target="_blank"><button className={styles.btn}><img src="github.svg" className={styles.icon}></img>Github</button></a>
+                      <a href={card.github} target="_blank" className={nav.under}><button className={styles.btn}><img src="github.svg" className={styles.icon}></img>Github</button></a>
                     </div>)
                 }
               </div>
