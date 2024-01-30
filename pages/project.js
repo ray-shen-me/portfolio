@@ -25,7 +25,7 @@ export default function project() {
       title: ' 👋 Portfolio',
       image: './portfolio.png',
       text: 'This website was made with Next.js and React, it was my first reactive web project and I learned a lot about front end web design. It\'s currently a work in progress and hosted on Google Cloud.',
-      github: 'https://github.com/rayyshen/portfolio'
+      github: 'https://github.com/ray-shen-me/portfolio'
     }
   ])
 
