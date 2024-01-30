@@ -44,7 +44,7 @@ export default function aboutme() {
                 <a href="./resume.pdf" target="_blank" className={nav.under}><button className={styles.btn}><img src="resume.svg" className={styles.icon}></img>CV Download</button></a>
                 <a href="https://www.linkedin.com/in/ray-shen-15b7b8260/" target="_blank" className={nav.under}><button className={styles.btn}><img src="linkedin.svg" className={styles.icon}></img>LinkedIn</button></a>
                 <a href="https://www.instagram.com/ray.shen_/" target="_blank" className={nav.under}><button className={styles.btn}><img src="instagram.svg" className={styles.icon}></img>Instagram</button></a>
-                <a href="mailto:rayshen071@gmail.com"><button className={styles.btn}><img src="email.svg" className={styles.icon}></img>Contact Me</button></a>
+                <a href="mailto: rayshen071@gmail.com" target="_blank" className={nav.under}><button className={styles.btn}><img src="email.svg" className={styles.icon}></img>Contact Me</button></a>
 
               </div>
             </div>
