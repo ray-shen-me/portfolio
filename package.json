@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
+    "animate.css": "^4.1.1",
     "framer-motion": "^11.0.3",
     "next": "latest",
     "nextjs-components": "^5.2.0",

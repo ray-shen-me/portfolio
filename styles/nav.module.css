@@ -2,6 +2,8 @@
   position: absolute;
   top: 16px;
   left: 16px;
+  animation: animate__fadeInLeft;
+  animation-duration: 1s;
 }
 
 .nav,

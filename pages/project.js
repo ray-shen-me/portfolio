@@ -6,6 +6,8 @@ import React from "react";
 import { useState } from 'react';
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
+import 'animate.css';
+
 
 export default function project() {
   const [cards] = useState([

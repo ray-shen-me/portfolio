@@ -5,7 +5,7 @@ import Link from 'next/link';
 import * as React from "react";
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
-
+import 'animate.css';
 
 export default function Home() {
   return (
