@@ -14,19 +14,19 @@ export default function project() {
     {
       title: ' 🥭 Mango Chat',
       image: './mangochat.png',
-      text: 'Chat privately and send money securely with MangoChat. MangoChat is a decentralized and end-to-encrypted chat web application that is capable of sending $DESO coin. It was made within 24 hours during HackTJ 9.0 and won the best overall hack award 🥳!',
+      text: 'MangoChat is a decentralized, end-to-end encrypted chat web application that is capable of sending $DESO coin. It utilizes the Gun.js library for the decentralized database and was made using Svelte. Created in 24 hours during HackTJ 9.0 and won the best overall hack award!',
       github: 'https://github.com/notken12/mangochat',
     },
     {
       title: ' 🍴 Foody',
       image: './Foody-logos_transparent.png',
-      text: 'Barcode scanning app for quick nutritional information, improves food information accessibility with translation and text-to-speech features for wider accessibility. Supports the food pharmacy program. Made in 24 hours during HackTJ 10.0',
+      text: 'Foody is a barcode scanning app for quick nutritional information, improving food information accessibility with translation and text-to-speech features. Made using the Open Food Facts API and created in 24 hours during HackTJ 10.0',
       github: 'https://github.com/rayyshen/foody'
     },
     {
       title: ' 👋 Portfolio',
       image: './portfolio.png',
-      text: 'This website was made with Next.js and React, it was my first reactive web project and I learned a lot about front end web design. It\'s currently a work in progress and hosted on Google Cloud.',
+      text: 'This website was made with Next.js, it was my first reactive web project and I learned a lot about front end web design. It\'s currently a work in progress and hosted on Google Cloud.',
       github: 'https://github.com/ray-shen-me/portfolio'
     }
   ])

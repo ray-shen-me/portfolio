@@ -9,34 +9,35 @@ import 'animate.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Ray Shen</title>
-        <link rel="icon" type="image/x-icon" href="/public/favicon.ico"></link>
-      </Head>
-
-      <main className={inter.className}>
-        <div className={nav.navbtn}>
-          <div className={nav.nav}>
-            <input type="checkbox"></input>
-            <span></span>
-            <span></span>
-            <div className={nav.menu}>
-              <li><Link href="./project">Projects</Link></li>
-              <li><Link href="./aboutme">About</Link></li>
+      <div className={styles.container}>
+        <Head>
+          <title>Ray Shen</title>
+          <link rel="icon" type="image/x-icon" href="/public/favicon.ico"></link>
+        </Head>
+      <div className="animate_animated animate__fadeIn">
+        <main className={inter.className}>
+          <div className={nav.navbtn}>
+            <div className={nav.nav}>
+              <input type="checkbox"></input>
+              <span></span>
+              <span></span>
+              <div className={nav.menu}>
+                <li><Link href="./project">Projects</Link></li>
+                <li><Link href="./aboutme">About</Link></li>
+              </div>
             </div>
           </div>
-        </div>
-        <h1 className={styles.title}>
-          Ray Shen
-        </h1>
-        <h2 className={styles.names}>Student and Developer</h2>
-        <div className={styles.bcontainer}>
-          <Link href="/project" className={nav.under}><button className={styles.buttons}><img src="projects.svg" className={styles.icon}></img>Projects</button></Link>
-          <a href="https://github.com/rayyshen" target="_blank" className={nav.under}><button className={styles.buttons}><img src="github.svg" className={styles.icon}></img>Github</button></a>
-          <Link href="/aboutme" className={nav.under}><button className={styles.buttons}><img src="aboutme.svg" className={styles.icon}></img>About Me</button></Link>
-        </div>
-      </main>
+          <h1 className={styles.title}>
+            Ray Shen
+          </h1>
+          <h2 className={styles.names}>Student and Developer</h2>
+          <div className={styles.bcontainer}>
+            <Link href="/project" className={nav.under}><button className={styles.buttons}><img src="projects.svg" className={styles.icon}></img>Projects</button></Link>
+            <a href="https://github.com/rayyshen" target="_blank" className={nav.under}><button className={styles.buttons}><img src="github.svg" className={styles.icon}></img>Github</button></a>
+            <Link href="/aboutme" className={nav.under}><button className={styles.buttons}><img src="aboutme.svg" className={styles.icon}></img>About Me</button></Link>
+          </div>
+        </main>
+      </div>
 
 
       <style jsx>{`
