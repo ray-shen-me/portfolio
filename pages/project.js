@@ -24,10 +24,10 @@ export default function project() {
       github: 'https://github.com/rayyshen/foody'
     },
     {
-      title: ' 👋 Portfolio',
-      image: './portfolio.png',
-      text: 'This website was made with Next.js, it was my first reactive web project and I learned a lot about front end web design. It\'s currently a work in progress and hosted on Google Cloud.',
-      github: 'https://github.com/ray-shen-me/portfolio'
+      title: '🍎 Cider',
+      image: './ciderhome.png',
+      text: 'Quickly create calendar events with Cider! Cider is an AI powered document analyzer that automatically creates .ICS calendar files with titles, dates, descriptions, locations, attendees, and more. Created at HackTJ 11.0 winning the Best Lifestyle Hack category!',
+      github: 'https://github.com/ray-shen-me/cider'
     }
   ])
 
