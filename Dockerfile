@@ -23,5 +23,8 @@ WORKDIR /app
 # Copy the built application from the build stage
 COPY --from=build /app/dist /usr/share/caddy
 
+# Copy the public directory
+COPY public/ /usr/share/caddy/public
+
 # Expose the port Caddy listens on
 EXPOSE 8080
