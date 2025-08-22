@@ -1,1 +1,1 @@
-portfolio website made with next.js
+built on astro.js

@@ -1,23 +1,14 @@
 {
-  "private": true,
+  "name": "documents",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "build": "next build",
-    "dev": "next dev",
-    "start": "next start"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "dependencies": {
-    "@nextui-org/react": "^2.2.9",
-    "animate.css": "^4.1.1",
-    "framer-motion": "^11.0.3",
-    "next": "latest",
-    "nextjs-components": "^5.2.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  },
-  "engines": {
-    "node": ">=18"
-  },
-  "devDependencies": {
-    "tailwindcss": "^3.4.1"
+    "astro": "^5.13.2"
   }
 }

@@ -1,0 +1,109 @@
+---
+import ContactCTA from "../components/ContactCTA.astro";
+import Hero from "../components/Hero.astro";
+import BaseLayout from "../layouts/BaseLayout.astro";
+import CallToAction from "../components/CallToAction.astro";
+---
+
+<BaseLayout title="About | Ray Shen" description="About Ray Shen">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="About"
+				tagline="Thanks for visiting my portfolio! Read more about me below."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Ray Shen at high school graduation"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Background</h2>
+				<div class="content">
+					<p>
+						Hello! My name is Ray Shen, and I am a Computer Science
+						student at Northeastern University. I'm originally from
+						Northern Virginia and in my free time I enjoy playing
+						pickleball, traveling, and taking photos.
+					</p>
+					<p>
+						I have a passion for technology and software
+						development, and I love to create things that make
+						people's lives easier and more enjoyable. I'm always
+						looking for new challenges and opportunities to learn
+						and grow as a developer. Feel free to reach out if you'd
+						like to connect!
+					</p>
+				</div>
+			</section>
+		</main>
+		<div class="cta" style="display: flex; justify-content: center;">
+			<CallToAction href="/public/RayShenResume2025.pdf">
+				Download my CV
+			</CallToAction>
+		</div>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
